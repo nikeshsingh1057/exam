@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+}
+
+nav{
+    background-color:black;
+    position: fixed;
+    width: 100%;
+}
+li{
+    
+    display: inline-block;
+    margin:20px;
+}
+
+#up1{
+   padding-left: 200px;  
+}
+
+#up2{
+    position: absolute;
+    right: 540px;
+}
+
+#up3{
+    position: absolute;
+    right: 418px;
+}
+
+#up4{
+    position: absolute;
+    right: 265px;
+}
+
+#up5{
+    position: absolute;
+    right: 150px;
+}
+
+#up6{
+    position:absolute;
+    right: 50px;
+}
+
+#section1{
+    
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url("https://www.w3schools.com/css/img_lights.jpg");
+}
+
+#div1{
+
+    width: 300px;
+    height: 485px;
+    background-color: red;
+    /* margin: 150px; */
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+}
+
+#div2{
+
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid rebeccapurple;
+}
+
+footer{
+
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+}
+h2{
+    text-align: center;
+    color:white ;
+}
+
+
+
+
+
+
+/*  section content */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.w3schools.com/css/img_lights.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.imgi{
+    width: 80%;
+   
+    margin: 0px auto;
+}
+ .imgi img{
+    width: 250px;
+    
+}
+.imgi span{
+    display: inline-block;
+    width: 500px;
+    margin-top:250px ;
+    align-items: center;
+    margin-left:100px ;
+    text-align: center;
+    font-size:3rem ;
+    color: #fff;
+    letter-spacing: 1.05px;
+}
+.main .imgi span  h3{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+}
